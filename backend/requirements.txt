@@ -7,5 +7,3 @@ python-multipart==0.0.9
 httpx==0.27.2
 transformers==4.43.3
 torch==2.2.2
-# Optional: local inference without server (comment out if not needed)
-# llama-cpp-python==0.2.90
