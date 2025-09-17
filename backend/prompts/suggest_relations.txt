@@ -1,0 +1,28 @@
+You are revisiting TEXT with the entities already extracted below.
+Suggest relations between these entities when the note makes the link explicit.
+
+Allowed relation types
+- treats: Medication or Procedure treats Disease
+- has_symptom: Disease has Symptom
+- causes: Disease or Medication causes Disease or Symptom
+- worsens: Disease, Medication, or Symptom worsens Disease or Symptom
+- indicates: Symptom indicates Disease
+
+Return JSON only:
+{
+  "relations": [
+    {"source_entity": "exact text", "target_entity": "exact text", "type": "treats|has_symptom|causes|worsens|indicates", "confidence": 0.0-1.0}
+  ]
+}
+
+Notes
+- Use the entity text exactly as given.
+- Skip relations that are implied but not stated.
+- Confidence reflects how explicit the sentence is.
+- Respond with one JSON object and nothing else.
+
+ENTITIES
+{ENTITIES_LIST}
+
+TEXT
+{DOCUMENT_TEXT}

@@ -1,0 +1,25 @@
+You are reviewing a clinical note in TEXT.
+Identify medical entities and any explicit relations mentioned.
+
+Entity types: Disease, Medication, Symptom, Procedure.
+Relation types: treats, has_symptom, causes, worsens, indicates.
+
+Return a single JSON object:
+{
+  "entities": [
+    {"text": "copied span", "start": int, "end": int, "type": "Disease|Medication|Symptom|Procedure"}
+  ],
+  "relations": [
+    {"source": int, "target": int, "type": "treats|has_symptom|causes|worsens|indicates"}
+  ]
+}
+
+Guidelines
+- Offsets use zero-based [start, end) positions inside TEXT.
+- Copy the original casing from TEXT into "text".
+- If unsure about an entity or relation, leave it out.
+- "source" and "target" reference indices in the entities array.
+- Stay concise: respond with JSON only.
+
+TEXT
+{DOCUMENT_TEXT}

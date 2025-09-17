@@ -1,0 +1,29 @@
+{
+  "Medication": {
+    "amoxicillin": {
+      "RxNorm": "723",
+      "SNOMED": "372687004"
+    },
+    "metformin": {
+      "RxNorm": "860975"
+    }
+  },
+  "Disease": {
+    "pneumonia": {
+      "SNOMED": "233604007",
+      "ICD10": "J18.9"
+    },
+    "hypertension": {
+      "SNOMED": "38341003",
+      "ICD10": "I10"
+    }
+  },
+  "Symptom": {
+    "fever": {
+      "SNOMED": "386661006"
+    },
+    "cough": {
+      "SNOMED": "49727002"
+    }
+  }
+}
