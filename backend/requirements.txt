@@ -7,3 +7,4 @@ python-multipart==0.0.9
 httpx==0.27.2
 transformers==4.43.3
 torch==2.2.2
+numpy==1.26.1
