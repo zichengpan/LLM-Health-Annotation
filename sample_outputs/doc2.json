@@ -1,0 +1,86 @@
+{
+  "document_id": "doc_16e121d9ffa9",
+  "title": "Doc2",
+  "text": "Initial evaluation found conversational dyspnea that interrupted nearly every sentence, accessory muscle recruitment, and coarse crackles dominating the right mid-lung. Vital signs repeated abnormal findings: heart rate 110, respiratory rate 26, temperature 38.4 °C, and oxygen saturation 89 percent on room air. Laboratory panels repeated leukocytosis at 15.4 × 10⁹/L with neutrophil predominance and elevated C-reactive protein at 72 mg/L. Arterial blood gas reiterated hypoxemia with PaO₂ 60 mmHg, matching the clinical story of pneumonia-driven respiratory compromise.",
+  "entities": [
+    {
+      "id": "ent_4c1008c08ae8",
+      "start": 303,
+      "end": 311,
+      "type": "Symptom",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:38.540725"
+    },
+    {
+      "id": "ent_005f237d6ab2",
+      "start": 532,
+      "end": 548,
+      "type": "Symptom",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:39.154223"
+    },
+    {
+      "id": "ent_d4734acafa28",
+      "start": 442,
+      "end": 460,
+      "type": "Procedure",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:40.129152"
+    },
+    {
+      "id": "ent_e58cfbbd9df0",
+      "start": 487,
+      "end": 491,
+      "type": "Symptom",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:40.733683"
+    },
+    {
+      "id": "ent_6988f3b2bdfb",
+      "start": 246,
+      "end": 265,
+      "type": "Symptom",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:41.894419"
+    },
+    {
+      "id": "ent_5512b6a018dc",
+      "start": 225,
+      "end": 244,
+      "type": "Symptom",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:42.443307"
+    },
+    {
+      "id": "ent_492f22b17517",
+      "start": 411,
+      "end": 429,
+      "type": "Symptom",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:42.817358"
+    },
+    {
+      "id": "ent_a3104b00103b",
+      "start": 532,
+      "end": 541,
+      "type": "Disease",
+      "codes": {
+        "SNOMED": "233604007",
+        "ICD10": "J18.9"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:18:45.714135"
+    }
+  ],
+  "relations": [],
+  "meta": {
+    "project_id": "prj_default"
+  }
+}

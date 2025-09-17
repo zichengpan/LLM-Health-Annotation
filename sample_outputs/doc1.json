@@ -1,0 +1,131 @@
+{
+  "document_id": "doc_b9fb7f7798d1",
+  "title": "Doc1",
+  "text": "Elaine Harper, a 62-year-old teacher with long-standing hypertension, presented after four days of relentless pneumonia symptoms. The pneumonia episodes included escalating dyspnea, pleuritic pneumonia-related chest pain, and a cough that repeatedly produced rusty sputum even after over-the-counter suppressants. Dyspnea during stair climbing forced multiple rest breaks, and the pneumonia fevers climbed to 38.6 °C despite acetaminophen. She denied travel but spent an entire weekend caring for grandchildren with upper respiratory infections, repeatedly noting how “pneumonia seems to be everywhere in that house.”",
+  "entities": [
+    {
+      "id": "ent_4c3212ba15a1",
+      "start": 56,
+      "end": 68,
+      "type": "Disease",
+      "codes": {
+        "SNOMED": "38341003",
+        "ICD10": "I10"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:11:27.976344"
+    },
+    {
+      "id": "ent_db89823d6ff7",
+      "start": 110,
+      "end": 119,
+      "type": "Disease",
+      "codes": {
+        "SNOMED": "233604007",
+        "ICD10": "J18.9"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:12:01.347963"
+    },
+    {
+      "id": "ent_58f86da37f9d",
+      "start": 134,
+      "end": 143,
+      "type": "Disease",
+      "codes": {
+        "SNOMED": "233604007",
+        "ICD10": "J18.9"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:12:01.369968"
+    },
+    {
+      "id": "ent_6600c95029de",
+      "start": 192,
+      "end": 201,
+      "type": "Disease",
+      "codes": {
+        "SNOMED": "233604007",
+        "ICD10": "J18.9"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:12:01.384554"
+    },
+    {
+      "id": "ent_c9a038fef054",
+      "start": 381,
+      "end": 390,
+      "type": "Disease",
+      "codes": {
+        "SNOMED": "233604007",
+        "ICD10": "J18.9"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:12:01.399055"
+    },
+    {
+      "id": "ent_7250bc11452a",
+      "start": 569,
+      "end": 578,
+      "type": "Disease",
+      "codes": {
+        "SNOMED": "233604007",
+        "ICD10": "J18.9"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:12:01.413176"
+    },
+    {
+      "id": "ent_8fc540c65964",
+      "start": 228,
+      "end": 233,
+      "type": "Symptom",
+      "codes": {
+        "SNOMED": "49727002"
+      },
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:13:10.934438"
+    },
+    {
+      "id": "ent_71a7dab14496",
+      "start": 425,
+      "end": 438,
+      "type": "Medication",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:13:18.699310"
+    },
+    {
+      "id": "ent_a87764739fb7",
+      "start": 259,
+      "end": 271,
+      "type": "Symptom",
+      "codes": null,
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:15:21.970586"
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_8a798968a762",
+      "source": "ent_4c3212ba15a1",
+      "target": "ent_a87764739fb7",
+      "type": "has_symptom",
+      "direction": "source_to_target",
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:15:23.443202"
+    },
+    {
+      "id": "rel_b37a86d627ea",
+      "source": "ent_4c3212ba15a1",
+      "target": "ent_8fc540c65964",
+      "type": "has_symptom",
+      "direction": "source_to_target",
+      "annotator_id": "Zicheng",
+      "created_at": "2025-09-17T17:15:32.750766"
+    }
+  ],
+  "meta": {
+    "project_id": "prj_default"
+  }
+}
